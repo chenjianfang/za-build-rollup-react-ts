@@ -1,6 +1,6 @@
 {
   "name": "@za-build/rollup-react-ts",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ZA react ts postcss组件rollup构建",
   "scripts": {
     "dev": "rollup --config build/rollup.config.dev.js",
