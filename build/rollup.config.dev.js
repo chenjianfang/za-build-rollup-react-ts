@@ -47,13 +47,11 @@ const config = {
             contentBase: 'test',
             port: 1010
         })
-    ]
+    ],
+    watch: {
+        include: 'src/**',
+        exclude: 'node_modules/**'
+    }
 };
-
-rollup.watch({
-    ...config,
-    chokidar: true,
-    include: './src'
-});
 
 export default config;
