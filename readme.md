@@ -9,8 +9,8 @@ npm install @za-build/rollup-react-ts --save-dev
 ## Usage
 ```
 // 开发组件
-npx za-react-dev
+npx za-dev-react-components
 
 // 打包生产组件
-npx za-react-build
+npx za-prod-react-components
 ```

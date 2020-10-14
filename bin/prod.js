@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const shell = require('shelljs');
+
+const cwd = process.cwd();
+const rollupConfigPath = path.join(cwd, 'build/rollup.config.prod.js');
+console.log('rollupConfigPath: ', rollupConfigPath);
+
+shell.cd(cwd);
+shell.exec(`npx rollup --config ${rollupConfigPath}`);
